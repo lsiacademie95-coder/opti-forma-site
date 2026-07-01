@@ -227,7 +227,7 @@ nav.scrolled{box-shadow:0 4px 24px rgba(26,46,44,.08)}
 .section-header p{font-size:1rem;color:var(--muted);line-height:1.7}
 
 /* ══ FORMATIONS GRID ══ */
-.formations-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.formations-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem}
 .formation-card{
   background:var(--bg);border:1px solid var(--border);border-radius:var(--r-card);
   overflow:hidden;display:flex;flex-direction:column;
@@ -575,7 +575,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.65);padding:3.5rem 0 2rem}
     <div class="section-header sr" data-delay="0">
       <div class="eyebrow">📚 Nos formations</div>
       <h2>Des parcours certifiants<br>pour les pros de la formation</h2>
-      <p>Deux certifications reconnues par l'État, finançables CPF et OPCO. Une troisième en cours d'agrément.</p>
+      <p>Deux certifications reconnues par l'État, finançables CPF et OPCO. Formation SSCT des élus CSE et formation SST en préparation.</p>
     </div>
     <div class="formations-grid" id="formations-grid">
       <!-- Card 1 -->
@@ -615,19 +615,37 @@ footer{background:var(--dark);color:rgba(255,255,255,.65);padding:3.5rem 0 2rem}
         </div>
       </div>
       <!-- Card 3 -->
-      <div class="formation-card soon">
-        <div class="card-top" style="background:#fffbf0">
-          <div class="card-icon" style="background:#fef3c7">🛡️</div>
+      <div class="formation-card">
+        <div class="card-top">
+          <div class="card-icon" style="background:#e8f5f3">🛡️</div>
           <h3>Santé, Sécurité &amp; Conditions de Travail</h3>
-          <div class="card-cert">SSCT · En cours d'agrément</div>
+          <div class="card-cert">SSCT · Membres du CSE</div>
         </div>
         <div class="card-body">
-          <p class="card-desc">Pour les représentants du personnel et employeurs. Formation sur les obligations SSCT. Disponible prochainement.</p>
-          <div class="card-tags"><span class="soon-badge">🕐 Bientôt disponible</span></div>
+          <p class="card-desc">Formation obligatoire des élus CSE en santé-sécurité. Financée intégralement par l'employeur.</p>
+          <div class="card-tags">
+            <span class="tag">Employeur</span><span class="tag tag-orange">3 à 5 jours</span>
+          </div>
         </div>
         <div class="card-footer">
-          <span class="card-duration">Agrément en cours</span>
-          <a href="contact.html" class="card-link" style="color:var(--muted)">M'alerter →</a>
+          <span class="card-duration">⏱ 3 à 5 jours</span>
+          <a href="formation-ssct.html" class="card-link">Découvrir <span>→</span></a>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="formation-card soon">
+        <div class="card-top" style="background:#fffbf0">
+          <div class="card-icon" style="background:#fef3c7">🚑</div>
+          <h3>Sauveteur Secouriste du Travail</h3>
+          <div class="card-cert">SST · Habilitation INRS en cours</div>
+        </div>
+        <div class="card-body">
+          <p class="card-desc">Formation aux gestes de premiers secours en entreprise. Ouverture des sessions après habilitation INRS.</p>
+          <div class="card-tags"><span class="soon-badge">⏳ Bientôt disponible</span></div>
+        </div>
+        <div class="card-footer">
+          <span class="card-duration">Habilitation en cours</span>
+          <a href="formation-sst.html" class="card-link" style="color:#92400e">M'alerter →</a>
         </div>
       </div>
     </div>
@@ -753,9 +771,6 @@ footer{background:var(--dark);color:rgba(255,255,255,.65);padding:3.5rem 0 2rem}
           <a href="contact.html" class="btn btn-primary">Demander un devis gratuit</a>
           <a href="tel:0635468492" class="btn btn-ghost">📞 06 35 46 84 92</a>
         </div>
-        <p style="margin-top:1.25rem;font-size:.85rem;">
-          <a href="formation-sst.html" style="color:rgba(255,255,255,.75);text-decoration:underline;text-underline-offset:3px;">Formation SST — bientôt disponible →</a>
-        </p>
       </div>
       <div class="cta-img-wrap">
         <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
