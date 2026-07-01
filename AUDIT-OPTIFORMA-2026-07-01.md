@@ -15,7 +15,7 @@
 | SIRET | 98840369700010 |
 | NDA (déclaration d'activité) | 11950956995 |
 | Mention légale obligatoire | « Enregistré sous le numéro 11950956995. Cet enregistrement ne vaut pas agrément de l'État. » |
-| Certification Qualiopi | CAP2061 (délivré par Bureau Veritas, valide jusqu'en 2028) |
+| Certification Qualiopi | CAP2061 (délivré par CAPCERT, accréditation COFRAC n°5-0638, valide du 11/09/2025 au 10/09/2028) |
 | Adresse | 9 Chaussée Jules César, 95520 Osny |
 | Email | contact@opti-forma.fr |
 | Téléphone | 06 35 46 84 92 |
@@ -279,6 +279,7 @@ Cet enregistrement ne vaut pas agrément de l'État. · Qualiopi CAP2061
 | `b36227a` | Création `formation-sst.html` — page pré-inscription SST (habilitation INRS en cours) |
 | `51c3cc8` | Mise à jour grille formations `index.html` — SSCT actif + carte SST bientôt disponible |
 | `55b2e94` | Réduction hauteur hero et toutes les sections de la page d'accueil |
+| `97c99b5` | 01/07/2026 — 4 corrections : harmonisation footers `formation-rncp37275.html`/`formation-rs6490.html` (liens SSCT/SST + mentions légales complètes) · vérification `robots.txt` (déjà conforme, aucun changement) · audit des 3 fichiers legacy non liés (tailles relevées, conservés en l'état) · vérification cohérence grille formations `index.html` (déjà à jour, aucun changement) |
 
 ### Détail formation-ssct.html
 - Fiche conforme Qualiopi Critère 1 / Indicateur 1
@@ -307,12 +308,12 @@ Cet enregistrement ne vaut pas agrément de l'État. · Qualiopi CAP2061
 
 ### Urgent / À surveiller
 - [ ] **Habilitation SST INRS** : dès obtention → activer la vente sur `formation-sst.html` (retirer le formulaire pré-inscription, ajouter le programme complet et le CTA devis)
-- [ ] **Mise à jour footers** : les pages `formation-rncp37275.html` et `formation-rs6490.html` ont encore l'ancien footer (sans lien SSCT/SST). À harmoniser si souhaité.
+- [x] Footers `formation-rncp37275.html` et `formation-rs6490.html` harmonisés avec SSCT/SST — corrigé le 01/07/2026
 
 ### SEO & technique
 - [ ] Ajouter `og:url` spécifiques par page (actuellement toutes pointent vers `https://opti-forma.fr`)
 - [ ] Vérifier la Search Console après les nouveaux ajouts
-- [ ] `robots.txt` à vérifier (non vu dans les fichiers)
+- [x] `robots.txt` vérifié le 01/07/2026 — déjà présent et conforme (`User-agent: *` / `Allow: /` / `Sitemap: https://opti-forma.fr/sitemap.xml`)
 
 ### Contenu
 - [ ] Photos de Nadia BELBOUAB : vérifier que les vraies photos sont bien en place sur `a-propos.html`
